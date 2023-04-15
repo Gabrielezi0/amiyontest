@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+Additional Readme
+
+
+Please change search url line to 
+ ``` curl_setopt($ch, CURLOPT_URL, "https://customsearch.googleapis.com/customsearch/v1" . $searchArray); ```
+ in AmiyontaskOne\vendor\aleszatloukal\google-search-api\src\AlesZatloukal\GoogleSearchApi\GoogleSearchApi.php
