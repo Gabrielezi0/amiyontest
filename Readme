@@ -1,0 +1,18 @@
+Task 1 
+-----------------
+
+
+Please change search url line to 
+ ``` curl_setopt($ch, CURLOPT_URL, "https://customsearch.googleapis.com/customsearch/v1" . $searchArray); ```
+ in AmiyontaskOne\vendor\aleszatloukal\google-search-api\src\AlesZatloukal\GoogleSearchApi\GoogleSearchApi.php
+
+
+Task 2
+-----------------
+
+I tried to complete the functionalities.
+
+I may need around 1.5 more hrs maximum to completed all validation and error messages need for this task for both client and server side.
+
+
+Thank you.
